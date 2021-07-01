@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OriginSix</title>
+
+    <!-- INCONS -->
+
+    <link rel="stylesheet" href="./assets/fonts/style.css" />
+
+    <!-- SWIPER -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <!-- Inserindo um ID crio uma especificidade para a minha TAG, sendo assim quando eu for usar o CSS eu poderei especificar qual elemento eu estou me referindo. No CSS usando # para criar a conexao com o ID do HTML.-->
+      <nav class="container">
+        <a class="logo" href="#">Sunshine<span>PetShop</span>.</a>
+        <!--MENU-->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <!--/MENU-->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Aqui em section vai ser a minha homepage -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+              alt="..."
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">
+              Seu pet mais feliz com os cuidados necessários
+            </h2>
+            <p>
+              Uma nova forma de cuidar no seu pet, serviço de hotelzinho e
+              atendimento veterinário 24 horas.
+            </p>
+            <a
+              class="button"
+              target="_blank"
+              href="https://api.whatsapp.com/send?phone=+5527999999999&text=Olá! Gostaria de de mais informações sobre o atendimento."
+              >Fale com a gente!</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1522276498395-f4f68f7f8454?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGV0c3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+              alt="homem abraçando o seu cachorro em um ambiente de floresta e uma pequena  montanha"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              ea, nostrum alias sit architecto cumque iure incidunt facilis
+              consequuntur modi magni, voluptates, assumenda vero corporis
+              doloremque doloribus dolore quidem explicabo?
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              atque repellendus enim modi nesciunt nemo eos ullam eaque beatae
+              ipsa dicta repellat nihil sint, ad a, sequi tenetur quis totam!
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
+              culpa maxime sint! Voluptas quos consequuntur cumque molestias,
+              sed nam? Inventore ipsa ex nam eum illo ipsum earum, est rem
+              repellat?
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+      <!--SERVICES-->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p class="subtitle">
+              Lorem ipsum dolor, sit amet
+              <strong> Sunshine PetShop</strong> adipisicing elit. Dignissimos
+              eos quam iste. Corporis ad impedit accusantium, facilis
+              repudiandae cumque aspernatur id iusto eos quisquam, consequatur
+              optio, doloremque debitis possimus harum.
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-home"></i>
+              <h3 class="title">Hotelzinho</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod
+                fugiat delectus tenetur architecto ut deleniti at debitis.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-pets"></i>
+              <h3 class="title">Atendimento médico</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                minus reiciendis fugiat ratione iste officiis officia eius nam
+                est repudiandae neque atque.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-health"></i>
+              <h3 class="title">Cuidados</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Expedita quas beatae enim, debitis veritatis minus rem? Vero
+                error odio atque.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <!-- TESTIMONIALS -->
+
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já deixou seu pet aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Fugiat doloremque iste, consequuntur totam, provident unde
+                    quia ex, voluptatem veniam id a. Aliquam cupiditate
+                    consectetur suscipit ab quo sequi totam incidunt?
+                  </p>
+                  <cite>
+                    <img
+                      src="https://images.unsplash.com/photo-1568564321589-3e581d074f9b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZG9nJTIwcHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                      alt="Foto de matheus batista"
+                    />
+                    Matheus Batista
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Fugiat doloremque iste, consequuntur totam, provident unde
+                    quia ex, voluptatem veniam id a. Aliquam cupiditate
+                    consectetur suscipit ab quo sequi totam incidunt?
+                  </p>
+                  <cite>
+                    <img
+                      src="https://images.unsplash.com/photo-1616356257367-9cd4bf56a45e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2F0JTIwcHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                      alt="foto de lana freitas"
+                    />
+                    Lana Freitas
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Fugiat doloremque iste, consequuntur totam, provident unde
+                    quia ex, voluptatem veniam id a. Aliquam cupiditate
+                    consectetur suscipit ab quo sequi totam incidunt?
+                  </p>
+                  <cite>
+                    <img
+                      src="https://images.unsplash.com/photo-1510771463146-e89e6e86560e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZG9nJTIwcHJvZmlsZSUyMHBpY3R1cmV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                      alt="foto de thainara silva"
+                    />
+                    Thainara Silva
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- CONTACTS -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato para tirar sua duvidas e conhecer sobre o nosso
+              ambiente.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5527999999999&text=Olá! Gostaria de de mais informações sobre o atendimento."
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 27 99999-9999</li>
+              <li><i class="icon-map-pin"></i> Av. Brasil, 640</li>
+              <li><i class="icon-mail"></i> contato@sunshinepetshop.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a class="logo logo-alt" href="#home"
+            >Sunshine<span>PetShop</span>.</a
+          >
+          <p>©2021 SunshinePetShop.</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="social">
+          <a href="http://instagram.com" target="_blank">
+            <i class="icon-instagram"></i>
+          </a>
+          <a href="http://facebook.com" target="_blank">
+            <i class="icon-facebook"></i>
+          </a>
+          <a href="http://youtube.com" target="_blank">
+            <i class="icon-youtube"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!--ARROW UP-->
+
+    <a href="#home" class="back-to-top">
+      <i class="icon-arrow-up"></i>
+    </a>
+
+    <!--SWIPER-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--SCROLLREVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Main.js-->
+    <script src="main.js"></script>
+  </body>
+</html>

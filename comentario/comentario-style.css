@@ -1,0 +1,9 @@
+body {
+  background: hsl(73, 86%, 47%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
